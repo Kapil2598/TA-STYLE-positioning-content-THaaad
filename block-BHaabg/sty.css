@@ -1,0 +1,138 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body { font-family: Arial, Helvetica, sans-serif;
+    	line-height: 1.5;
+        background-color: blanchedalmond;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/*custom style */
+header{height: 170px;
+    background-color:black;
+}
+ img{ padding: 20px 0 20px 60px;
+    width: 130px;
+ }
+
+
+.nav { vertical-align: middle;
+display: inline-block;
+float:right;
+margin: 55px 70px;
+font-size: 25px;
+padding: 30px;
+}
+.nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+
+
+main{padding-top: 200px;}
+h1{padding: 30px;
+    font-size: 40px; margin: 20px;
+}
+
+.child{text-align: justify;
+    display: flex;
+    margin: 20px;
+}
+ 
+.para{
+  
+    font-size: 22px; margin: 20px;
+    
+}
+
+.bmw{
+    width: 650px;
+}
+ 
+
+.inside-gallery{
+    width: 500px;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer{background-color: black;
+height: 100px;}
+.circle{ 
+    color: white;
+    width: 80px;
+    height: 80px;
+    border: 2px solid  red;
+    float: right;
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.fixed { width: 100%;
+    position: fixed;
+    }
+
+  button{
+     
+        float: right;
+            margin: 20px;
+        z-index: 99; /* Make sure it does not overlap */
+        
+        background-color: red; /* Set a background color */
+        color: white; /* Text color */
+        
+        padding: 15px; /* Some padding */
+        border-radius: 150%; /* Rounded corners */
+        font-size: 25px; /* Increase font size */
+      }
+      
